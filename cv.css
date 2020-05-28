@@ -241,6 +241,8 @@ article h5
     display: flex;
     margin-top: 1rem;
     font-size: 13px;
+    text-align:left;
+	
 }
 
 .personnes
