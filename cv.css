@@ -165,6 +165,8 @@ article
     text-align: justify;
     padding: 2.5rem;
     font-size: 13px;
+    box-shadow: 0px 2px 5px;
+	
 }
 
 h2 i
@@ -181,7 +183,10 @@ h2 i
     margin-top: 75px;
 }
 
-
+#formations
+{
+    padding-top: 1rem;
+}
 
 .formation, .experience {
     display: flex;
