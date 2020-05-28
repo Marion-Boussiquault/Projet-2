@@ -1,0 +1,348 @@
+/* Police d'écriture de la page */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* css général du cv */
+
+body
+{
+    background-color: rgb(253, 253, 253);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    color: rgba(51, 50, 50, 0.705);
+    
+}
+
+#bloc_page
+{
+    max-width: 900px;
+    margin: auto;
+
+}
+
+#cv
+{
+    display: flex;
+}
+
+/*barre gauche du CV */
+
+#photo_cv
+{
+    width:200px;
+    clip-path:ellipse(50% 48%);
+    margin: auto;
+    margin-top: 1rem;
+}
+aside
+{
+    background-color: rgb(255, 187, 0);
+    width: 33.33%;
+    
+}
+
+a 
+{
+    color: rgba(51, 50, 50, 0.705);
+}
+
+#info
+{
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem; 
+}
+
+#présentation
+{
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom:12rem;
+}
+
+.aside-part-title
+{
+    background-color: dimgrey;
+    color: rgb(255, 187, 0);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#loisir
+{
+    text-align: center;
+}
+#loisir i
+{           
+    width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	border: 2px solid rgba(51, 50, 50, 0.705);
+	margin: 0 5px;
+	padding: 18px;
+    color:  rgba(51, 50, 50, 0.705);
+    margin-bottom: 15px;
+}
+
+
+
+/*barre de droite du CV*/
+
+/*entete*/
+
+#titre
+{
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 33px;
+    padding-bottom: 0.5rem;
+    color: black;
+}
+
+.article-part-header
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#name
+{
+    color: rgb(255, 187, 0);
+    text-transform: uppercase;
+}
+
+#Dev
+{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: rgb(255, 187, 0);
+    font-weight: bold;
+}
+
+article header
+{
+    padding-bottom: 4rem;
+}
+.article-part-h2
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom:2px solid rgb(255, 187, 0);
+    padding-top: 1.5rem;
+    padding-bottom:0.5rem;
+}
+
+article
+{
+    text-align: justify;
+    padding: 2.5rem;
+    box-shadow: 0px 2px 5px;
+    font-size: 13px;
+}
+
+h2 i
+{
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    color:rgb(255, 187, 0);
+    width: 50px;
+}
+
+#droite
+{
+    margin-top: 75px;
+}
+
+
+
+.formation, .experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formation .description, .experience .description {
+    width: 70%;
+}
+
+.formation .date, .experience .date
+{
+width: 30%;
+
+}
+
+#experiences
+{
+    
+    margin-top:1rem;
+    padding-bottom:0.5rem;
+      
+}
+
+.article-part-h3
+{
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+    
+}
+
+article h5
+{
+    font-size: 13px;
+    padding-bottom: 0.2rem;
+}
+
+.date
+{
+    display: flex;
+    width:25%;
+    padding-right:2rem;
+}
+
+.description
+{
+    display: flex;
+    flex-wrap: wrap;
+    width:65%;
+    padding-bottom:2rem;
+    font-size: 11px;
+}
+
+#recommandations
+{
+    display: flex;
+    margin-top: 1rem;
+    font-size: 13px;
+}
+
+.personnes
+{
+    padding: auto;
+    margin:auto
+}
+
+.info_recommandation
+{
+    font-weight: bold;
+}
+
+.personnes h3
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.description_h5
+{
+    padding-right: 13rem;
+}
+
+.descriptions_h5
+{
+    padding-right: 17rem;
+}
+
+.formation_h3
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0.25rem;
+    padding-right: 5rem;
+}
+
+.formation_date, .experience_date
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.date i
+{
+    padding-right: 15px;
+    color:rgb(255, 187, 0);
+}
+
+
+/*----------Média Queeries-----------*/
+
+@media screen and (max-width: 1201px) {
+    
+    #cv
+    {
+        display:flex;
+    }
+
+    header 	 
+    {				
+        margin-left: 0 px ;
+    }
+    p 
+    {
+        padding : auto;
+    }
+
+}
+
+
+
+@media screen and (max-width: 741px)
+{
+    
+    #cv
+    {
+        display:flex;
+        flex-direction:column;
+    }
+    
+
+    aside
+    {
+        width: 100%;
+    }
+
+    body
+    {
+        font-size: 20px;
+    }
+
+    #photo_cv
+    {
+        text-align: center;
+    }
+    
+    #nom_prenom
+    {
+        padding-bottom: 0rem;
+    }
+
+}
