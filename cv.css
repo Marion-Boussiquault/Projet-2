@@ -299,26 +299,6 @@ article h5
 
 /*----------Média Queeries-----------*/
 
-@media screen and (max-width: 1201px) {
-    
-    #cv
-    {
-        display:flex;
-    }
-
-    header 	 
-    {				
-        margin-left: 0 px ;
-    }
-    p 
-    {
-        padding : auto;
-    }
-
-}
-
-
-
 @media screen and (max-width: 741px)
 {
     
