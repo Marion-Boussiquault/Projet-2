@@ -328,5 +328,10 @@ article h5
     {
         padding-bottom: 0rem;
     }
+    #description_h5
+    {
+	padding-right:0rem;
+    }
+		
 
 }
