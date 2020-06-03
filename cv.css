@@ -63,6 +63,11 @@ aside
     
 }
 
+.mail-info
+{
+    overflow-wrap: break-word;
+}
+
 a 
 {
     color: rgba(51, 50, 50, 0.705);
@@ -162,7 +167,6 @@ article header
 
 article
 {
-    text-align: justify;
     padding: 2.5rem;
     font-size: 13px;
 }
@@ -226,7 +230,6 @@ width: 30%;
 
 .description
 {
-    display: flex;
     flex-wrap: wrap;
     width:65%;
     padding-bottom:2rem;
@@ -244,7 +247,7 @@ width: 30%;
 
 .personnes
 {
-    padding: auto;
+    padding-right: 2.5rem;
     margin:auto
 }
 
@@ -259,10 +262,14 @@ width: 30%;
     text-transform: uppercase;
 }
 
-.description_h5
+.texte-description
 {
-    font-size: 13px;
-    padding-bottom: 0.2rem;
+    text-align: justify;
+}
+
+.metier
+{
+    padding-bottom: 0.5rem;
 }
 
 .formation_h3
