@@ -71,8 +71,6 @@ a
 #info
 {
     text-align: justify;
-    padding-left: 2rem;
-    padding-right: 2rem; 
 }
 
 #présentation
@@ -217,12 +215,6 @@ width: 30%;
     
 }
 
-article h5
-{
-    font-size: 13px;
-    padding-bottom: 0.2rem;
-}
-
 .date
 {
     display: flex;
@@ -267,12 +259,8 @@ article h5
 
 .description_h5
 {
-    padding-right: 13rem;
-}
-
-.descriptions_h5
-{
-    padding-right: 17rem;
+    font-size: 13px;
+    padding-bottom: 0.2rem;
 }
 
 .formation_h3
