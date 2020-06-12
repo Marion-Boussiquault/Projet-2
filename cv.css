@@ -93,7 +93,7 @@ a
     padding-bottom:12rem;
 }
 
-#aside-part h2
+#aside-part h3
 {
     background-color: dimgrey;
     color: rgb(255, 187, 0);
@@ -162,7 +162,7 @@ article header
     padding-bottom: 4rem;
 }
 
-#article-part h2
+#article-part h3
 {
     text-transform: uppercase;
     font-size: 20px;
@@ -177,7 +177,7 @@ article
     font-size: 13px;
 }
 
-h2 i
+h3 i
 {
     margin-top: 1px;
     margin-left: 1px;
@@ -219,11 +219,13 @@ width: 30%;
       
 }
 
-.article-part-h3
+.description h4
 {
-    text-transform: uppercase;
-    padding-bottom: 0.5rem;
+    font-size: 12px;
     font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0.25rem;
+    padding-right: 5rem;
     
 }
 
@@ -278,7 +280,7 @@ width: 30%;
     padding-bottom: 0.5rem;
 }
 
-.description h3
+.formation_h3
 {
     font-size: 12px;
     font-weight: bold;
