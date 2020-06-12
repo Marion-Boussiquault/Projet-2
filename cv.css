@@ -1,16 +1,5 @@
 /* Police d'écriture de la page */
 
-@font-face
-{
-    font-family: 'BallparkWeiner';
-    src: url('polices/ballpark.eot');
-    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
-         url('polices/ballpark.woff') format('woff'),
-         url('polices/ballpark.ttf') format('truetype'),
-         url('polices/ballpark.svg#BallparkWeiner') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face
 {
@@ -52,7 +41,6 @@ body
 #photo_cv
 {
     width:200px;
-    border-radius:50%;
     margin: auto;
     margin-top: 1rem;
 }
